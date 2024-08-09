@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Restaurant Food Landing</title>
+<link rel="stylesheet" href="./assets/css/font-face.css">
+<link rel="stylesheet" href="./assets/css/styles.css">
+<link rel="stylesheet" href="./assets/css/custom.css">
+<link rel="stylesheet" href="./assets/css/buy.css">
+
+</head>
+
+<body>
+    <div class="wrapp-contain">
+        <section id="header">
+            <div class="ellipse ellipse-2"></div>
+            <div class="navbar d-flex">
+                <a href="home.html">
+                    <img class="logo" src="./assets/images/logo.png"/> 
+                </a>           
+                    <ul class="menu d-flex" id="menuList">
+                        <li><a class="text-menu" href="home.html">Home</a></li>
+                        <li><a class="text-menu" href="#our-best">Our Menu</a></li>
+                        <li><a class="text-menu" href="#">Foods</a></li>
+                        <li><a class="text-menu" href="#">About Us</a></li>
+                        <li><a class="text-menu" href="#">Contact Us</a></li>
+                        <li><a href="cart.html">
+                            <div class="icon-cart-header pointer">
+                                <svg class="w-6 h-6 text-gray-800 dark:text-white icon-buy" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                                </svg>
+                                <span id="cart-quantity" class="quantity">0</span>
+                            </div>
+                            </a>
+                        </li>
+                        <li><button class="buttonLogin"><b class="text-red">Login</b></button></li>
+                    </ul>
+                <div class="menu-mobile">
+                    <div class="container" onclick="handleMenuToggle(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                      </div>
+                </div>
+            </div>  
+        </section>
+
+        <section id="title-home/">
+            <div class="home-name">
+                <a class="home-navbar text-grey-2">Home /</a>
+                <a class="home-navbar text-red">Cart</a>
+            </div>
+        </section>
+    
+        <section id="cart">
+        </section>
+        
+    </div>
+    <div class="wrapp-contain">
+        <section id="buy">
+            <a href="buy.html"><button class="button buy-now">Buy Now</button></a>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-contain">
+            <section id="#">
+                <div class="join-NL">
+                    <div class="join-right">
+                        <div class="title-Join">
+                            <p class="title-content text-black">Join Our</p>
+                            <p class="title-content text-red">Newsletter</p>
+                        </div>
+                        <p class="content-Join">Be the first to know about our latest updates, exclusive offers, and more.</p>
+                    </div>
+                    <form id="subscribe" method="post" onsubmit="return save_data()">
+                        <div class="action d-flex">
+                            <input class="enter-email" type="text" name="textbox" id="emailInput" placeholder="Enter your email address" size="35" required/>
+                            <button class="button subscribe" type="submit" value ="Save" id="Save">Subscribe</button>
+                        </div>
+                        <div id="error" class="margin-top-14"></div>
+                    </form>
+                </div>
+            </section> 
+            <hr class="solid margin-0"/> 
+            <section id="footer-list">
+                <div class="name-list">
+                    <p class="name">Products & Service</p>
+                    <div class="list">
+                        <a class="name-detail" href="">Products</a>
+                        <a class="name-detail" href="">Service</a>
+                        <a class="name-detail" href="">Appliances</a>
+                        <div class="name-new">
+                            <a class="name-detail" href="">Storage</a>
+                            <button class="new">New</button>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Lifestyle</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-list">
+                    <p class="name">Shop Now</p>
+                    <div class="list">
+                        <a class="name-detail" href="">Offers</a>
+                        <a class="name-detail" href="">Promos</a>
+                        <a class="name-detail" href="">Online Shop FAQ</a>
+                        <div class="name-new">
+                            <a class="name-detail" href="">Business Offer</a>
+                            <button class="new">New</button>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Student Offer</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-list">
+                    <p class="name">Support</p>
+                    <div class="list">
+                        <a class="name-detail" href="">Contact</a>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Email Support</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Live Chat</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <a class="name-detail" href="">Phone Support</a>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Community</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-list">
+                    <p class="name">Account</p>
+                    <div class="list">
+                        <a class="name-detail" href="">My Products</a>
+                        <a class="name-detail" href="">Orders</a>
+                        <a class="name-detail" href="">Wishlist</a>
+                        <div class="name-new">
+                            <a class="name-detail" href="">Service</a>
+                            <button class="new">New</button>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Rewards</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-list">
+                    <p class="name">About</p>
+                    <div class="list">
+                        <a class="name-detail" href="">Company Info</a>
+                        <a class="name-detail" href="">Brand Guidelines</a>
+                        <a class="name-detail" href="">Careers</a>
+                        <div class="name-new">
+                            <a class="name-detail" href="">Investors</a>
+                            <button class="new">New</button>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">About Us</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="solid margin-0"/>
+            <section id="end">
+                <p class="footer-link text-white" >© 2023 Cadet UI. All Rights Reserved.</p>
+                <div class="bottom-link">
+                    <a class="footer-link text-grey-1" href="">English</a>
+                    <a class="footer-link text-grey-1" href="">Privacy</a>
+                    <a class="footer-link text-grey-1" href="">Legal</a>
+                </div>
+                <p class="footer-link text-grey-1" >© 2023 Cadet UI. All Rights Reserved.</p>     
+            </section>
+        </div>
+        
+    </footer>
+    <script src="./assets/javascript/cart.js"></script>
+    <script src="./assets/javascript/javascript.js"></script>
+    <script src="./assets/javascript/jv.js"></script>
+</body>
+
+</html>
+
+

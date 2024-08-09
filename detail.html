@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Restaurant Food Landing</title>
+<link rel="stylesheet" href="./assets/css/font-face.css">
+<link rel="stylesheet" href="./assets/css/styles.css">
+<link rel="stylesheet" href="./assets/css/custom.css">
+<link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+<body>
+    <div class="wrapp-contain">
+        <section id="header">
+            <div class="ellipse ellipse-2"></div>
+            <div class="navbar d-flex">
+                <a href="home.html">
+                    <img class="logo" src="./assets/images/logo.png"/> 
+                </a>           
+                    <ul class="menu d-flex" id="menuList">
+                        <li><a class="text-menu" href="home.html">Home</a></li>
+                        <li><a class="text-menu" href="#our-best">Our Menu</a></li>
+                        <li><a class="text-menu" href="#">Foods</a></li>
+                        <li><a class="text-menu" href="#">About Us</a></li>
+                        <li><a class="text-menu" href="#">Contact Us</a></li>
+                        <li><a href="cart.html">
+                            <div class="icon-cart-header pointer">
+                                <svg class="w-6 h-6 text-gray-800 dark:text-white icon-buy" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                                </svg>
+                                <span id="cart-quantity" class="quantity">0</span>
+                            </div>
+                            </a>
+                        </li>
+                        <li><button class="buttonLogin"><b class="text-red">Login</b></button></li>
+                    </ul>
+                <div class="menu-mobile">
+                    <div class="container" onclick="handleMenuToggle(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                      </div>
+                </div>
+            </div>  
+            
+        </section>
+
+        <section>
+            <div class="home-name">
+                <a class="home-navbar text-grey-2">Home /</a>
+                <a class="home-navbar text-red">Detail</a>
+            </div>
+        </section>
+    
+        
+        
+        <section id="buy-food" class="d-flex">
+            <div class="detail-left">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img class="img-detail" src="./assets/images/Frame-45-(1).png">    
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <img class="img-detail" src="./assets/images/Frame-45-(2).png">
+                       
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <img class="img-detail" src="./assets/images/Frame-45-(3).png">
+                        
+                    </div>
+                    <div class="position-dot" style="text-align:center">
+                        <span class="dot detail" onclick="currentSlide(1)"></span>
+                        <span class="dot detail" onclick="currentSlide(2)"></span>
+                        <span class="dot detail" onclick="currentSlide(3)"></span>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+            <div class="product-item-1">
+                <div class="detail-right">
+
+                    
+                    <h2 id="product-title" class="breakfast-food padding-btm-25"></h2>
+                    
+                    <p id="product-description" class="content-detail-food padding-btm-25 padding-top-25"></p>
+                    
+                    <p id="product-price" class="price padding-btm-25"></p>
+        
+                    <div class="buy">
+                        <div class="input-count d-flex">     
+                            <button class="radius-left count padding-0 minus pointer" >-</button>      
+                            <input id="quantityButton" class="count number" value="1"></input>
+                            <button class="radius-right count padding-0 plus pointer">+</button>
+                        </div>
+                        <div class="icon-cart pointer" style="color: #F03328" onclick="updateCartQuantityFromDetail()">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white icon-buy-now" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                            </svg>
+                        </div>
+                        <a href="buy.html" class="button buy-now">Buy Now</a>
+                    </div>
+        
+                </div>
+            </div>
+
+    
+        </section> 
+    
+        <section id="detail-food">
+            <div class="padding-btm-34">
+                <div class="w3-bar w3-black menu d-flex">
+                    <a class="w3-bar-item w3-button tablink w3-red cus-tab" onclick="opentext(event,'Description')">Description</a>
+                    <a class="w3-bar-item w3-button tablink cus-tab" onclick="opentext(event,'Specification')">Specification</a>
+                    <a class="w3-bar-item w3-button tablink cus-tab" onclick="opentext(event,'Reviews')">Reviews</a>
+                </div>
+            </div>
+            
+            <hr class="solid margin-0">
+              <div id="Description" class="w3-container w3-border city">
+                <div class="max-height-700">
+                    <p class="description-food">Grilled vegetable salads are not unique to Tunisian cuisine; 
+                        cookbooks of the Caucasus, for example, suggest something of this kind,
+                        but skewered, roasted over fire, and then chopped into a perfect starter mix. 
+                        The ingredients are quite similar, too: tomatoes, peppers, onions, 
+                        eggplants (optional in mechouia), and garlic. Tunisian grilled veggies salad, 
+                        however, contains tuna fish and boiled eggs, which make it a more hearty meal. 
+                        Despite the cooking method, it can be labeled healthy, given the vitamins and 
+                        nutrients delivered by its plant components, and it's always good to have something
+                         like that when you're on a gastronomic tour in an exotic African country.</p>
+                </div>
+                
+              </div>
+            
+              <div id="Specification" class="w3-container w3-border city" style="display:none">
+                <div class="max-height-700">
+                    <p class="description-food">わたしの好きなものは、一つだけでは言いきれない。でもやっぱり一番は、梅。梅なら何でも好き。
+                        お菓子やジュース干し梅など。梅干しだったら、百粒だって食べられる。
+                        Watashi no sukina mono wa, hitotsu dake dewa iikirenai. 
+                        Demo yappari ichiban wa, ume. Ume nara nani demo suki. 
+                        Okashi ya juusu hoshiume nado. Umeboshi dattara, hyaku-tsubu datte taberareru.</p> 
+                </div>
+              </div>
+            
+              <div id="Reviews" class="w3-container w3-border city" style="display:none">
+                <div class="max-height-700">
+                    <p class="description-food">思いつけば、ぜんぶわたしの好きなものになっている。嫌いなものだと、
+                        たくさん食べれないのになぜか好きなものだと自然におはしが進む。
+                        Omoitsukeba, zenbu watashi no sukina mono ni natte iru. 
+                        Kiraina mono dato, takusan taberenai noni naze ka sukina mono dato shizen ni ohashi ga susumu.</p>
+                </div>
+              </div>
+        </section>
+        <section id="our-best" class="position-relative">
+            <div class="seller-Dish">
+                <h2 class="title-Seller title-Seller-detail ">Related Product</h2>
+            </div>
+            <div class="listFood" id="listFood">
+            </div>
+            <div class="ellipse ellipse-3"></div>
+            <div class="padding-btm-60">
+                <button class="button show-more">Show More</button>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="footer-contain">
+            <section>
+                <div class="join-NL">
+                    <div class="join-right">
+                        <div class="title-Join">
+                            <p class="title-content text-black">Join Our</p>
+                            <p class="title-content text-red">Newsletter</p>
+                        </div>
+                        <p class="content-Join">Be the first to know about our latest updates, exclusive offers, and more.</p>
+                    </div>
+                    <form id="subscribe" method="post" onsubmit="return save_data()">
+                        <div class="action d-flex">
+                            <input class="enter-email" type="text" name="textbox" id="emailInput" placeholder="Enter your email address" size="35" required/>
+                            <button class="button subscribe" type="submit" value ="Save" id="Save">Subscribe</button>
+                        </div>
+                        <div id="error" class="margin-top-14"></div>
+                    </form>
+                </div>
+            </section> 
+            <hr class="solid margin-0"/> 
+            <section id="footer-list">
+                <div class="name-list">
+                    <p class="name">Products & Service</p>
+                    <div class="list">
+                        <a class="name-detail" href="">Products</a>
+                        <a class="name-detail" href="">Service</a>
+                        <a class="name-detail" href="">Appliances</a>
+                        <div class="name-new">
+                            <a class="name-detail" href="">Storage</a>
+                            <button class="new">New</button>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Lifestyle</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-list">
+                    <p class="name">Shop Now</p>
+                    <div class="list">
+                        <a class="name-detail" href="">Offers</a>
+                        <a class="name-detail" href="">Promos</a>
+                        <a class="name-detail" href="">Online Shop FAQ</a>
+                        <div class="name-new">
+                            <a class="name-detail" href="">Business Offer</a>
+                            <button class="new">New</button>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Student Offer</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-list">
+                    <p class="name">Support</p>
+                    <div class="list">
+                        <a class="name-detail" href="">Contact</a>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Email Support</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Live Chat</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <a class="name-detail" href="">Phone Support</a>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Community</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-list">
+                    <p class="name">Account</p>
+                    <div class="list">
+                        <a class="name-detail" href="">My Products</a>
+                        <a class="name-detail" href="">Orders</a>
+                        <a class="name-detail" href="">Wishlist</a>
+                        <div class="name-new">
+                            <a class="name-detail" href="">Service</a>
+                            <button class="new">New</button>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Rewards</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-list">
+                    <p class="name">About</p>
+                    <div class="list">
+                        <a class="name-detail" href="">Company Info</a>
+                        <a class="name-detail" href="">Brand Guidelines</a>
+                        <a class="name-detail" href="">Careers</a>
+                        <div class="name-new">
+                            <a class="name-detail" href="">Investors</a>
+                            <button class="new">New</button>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">About Us</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="solid margin-0"/>
+            <section id="end">
+                <p class="footer-link text-white" >© 2023 Cadet UI. All Rights Reserved.</p>
+                <div class="bottom-link">
+                    <a class="footer-link text-grey-1" href="">English</a>
+                    <a class="footer-link text-grey-1" href="">Privacy</a>
+                    <a class="footer-link text-grey-1" href="">Legal</a>
+                </div>
+                <p class="footer-link text-grey-1" >© 2023 Cadet UI. All Rights Reserved.</p>     
+            </section>
+        </div>
+        
+    </footer> 
+
+    <script src="./assets/javascript/javascript.js"></script>
+    <script src="./assets/javascript/validation.js"></script>
+    <script src="./assets/javascript/jv.js"></script>
+    <script src="./assets/javascript/detail.js"></script>
+    <script>
+        var totalQuantity = parseInt(localStorage.getItem('totalCartQuantity')) || 0;
+        document.getElementById('cart-quantity-header').textContent = totalQuantity;
+            // Cập nhật số lượng đã tính toán lên biểu tượng giỏ hàng trong header
+            document.getElementById('cart-quantity-header').textContent = totalQuantity;
+
+            // Lưu tổng số lượng mới vào Local Storage
+            localStorage.setItem('totalCartQuantity', totalQuantity);
+
+    </script>
+</body>
+
+</html>
+
+

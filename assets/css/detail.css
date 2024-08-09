@@ -1,0 +1,128 @@
+#buy-food {
+    align-items: center;
+    gap: 70px;
+    padding-left: 71.5px;
+    padding-right: 68.5px;
+}
+.detail-left, .product-item-1 {
+    width:50%
+}
+.slideshow-container {
+    position: relative;
+}
+.position-dot{
+    left: 45%;
+    position: absolute;
+    bottom: 2%;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    color: white;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    position: absolute;
+}
+.prev {
+    color: white;
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    position: absolute;
+}
+.breakfast-food {
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 120%; 
+}
+.content-detail-food {
+    color: var(--neutral-grey-03, #3D3D3D);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 130%;
+}
+.buy {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.input-count.d-flex {
+    width: 28%;
+}
+.radius-left {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.radius-right {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.number {
+    min-width: 80px;
+    text-align: center;
+}
+.count {
+    color: #191919;
+    font-size: 25px;
+    font-weight: 400;
+    border: 1px solid #F03328;
+    width: 50%;
+    background: none;
+}
+input#quantityButton {
+    border-radius: 0px;
+}
+.img-detail {
+    border-radius: 5%;
+    width: 100%
+}
+#detail-food {
+    padding: 120px 80px 0;
+}
+.description-food {
+    color: var(--neutral-grey-03, #3D3D3D);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 130%; 
+    margin: 40px 0px 40px 0px;
+}
+.seller-Dish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+button.button.show-more {
+    margin-top: 80px;
+}
+.show-more {
+    border-radius: 8px;
+    background: none;
+    color: #F03328;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%; 
+    padding: 12px 70px;
+    border: 1px solid #F03328;
+}
+.detail-rate {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.detail-right {
+    display: block;
+}
+

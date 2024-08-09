@@ -1,0 +1,2482 @@
+ @media only screen and (min-width: 1200px) and (max-width:1360px) {
+    .quality-text {
+        text-align: center;
+        font-size: 17px;
+    }
+    .btn-order {
+        padding: 12px 12px;
+    }
+    .buttonLogin {
+        padding: 15px 27px;
+    }
+    b.text-red {
+        font-size: 18px;
+    }
+    .menu {
+        gap: 45px;
+    }
+    section#people-choose {
+        gap: 70px;
+    }
+    .title-WhyChoose {
+        font-size: 45px;
+    }
+    .overall-Reason {
+        gap: 22px
+    }
+    .title-Reason {
+        font-size: 30px;
+    }
+    .content-Reason {
+        font-size: 18px;
+    }
+    .content-right {
+        gap: 18px;
+    }
+    .row1 {
+        justify-content:center;
+    }
+    h2#product-title {
+        padding-bottom: 0;
+    }
+    p#product-price {
+        padding: 25px 0 10px;
+    }
+    .frame-delivery {
+        left: -6%;
+    }
+    .frame-Rate {
+        left: -11%;
+    }
+    .bg-vector {
+        border-radius: 58px;
+    }
+    .content-detail-food {
+        white-space: initial;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-bottom: 0px;
+    }
+    .row1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 45px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width:1199px) {
+    .cart-row {
+        padding: 15px 26px;
+    }
+    .navbar.d-flex {
+        padding: 3rem;
+    }
+    .banner.d-flex.align-items-center, section#head-link, section#people-choose {
+        padding: 0 3rem 5rem
+    }
+    footer{
+        padding: 5rem 3rem
+    }
+    #our-best{
+        padding: 1rem 3rem 5rem;
+    }
+    #customer-FB {
+        padding: 0 3rem 2rem
+    }
+    .menu {
+        gap: 25px;
+    }
+    b.text-red {
+        font-size: 18px;
+    }
+    button.buttonLogin {
+        padding: 15px 27px;
+    }
+    .title1 {
+        font-size: 53px;
+    }
+    .title2 {
+        font-size: 51px;
+    }
+    .banner-content {
+        font-size: 21px;
+        margin: 18px 0;
+    }
+    .order {
+        font-size: 15px;
+        padding: 17px 26px;
+        margin-top: 3.5%;
+    }
+    .bg-vector {
+        border-radius: 48px;
+    }
+    .banner-item {
+        padding: 12px 8px;
+    }
+    section#head-link{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 3rem 5rem;
+    }
+    section#head-link> div {
+        width: 32%;
+    }
+    section#people-choose {
+        gap: 40px;
+    }
+    .title-WhyChoose {
+        font-size: 40px;
+    }
+    .title-Reason {
+        font-size: 26px;
+    }
+    .home {
+        height: 18px;
+        width: 18px;
+    }
+    .new {
+        font-size: 12px;
+    }
+    .content-Reason {
+        font-size: 16px;
+    }
+    .overall-Reason {
+        gap: 15px
+    }
+    .content-right {
+        gap: 18px;
+    }
+    .row1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 45px;
+    }
+    .title-FB {
+        gap: 10px;
+    }
+    .title-customer-fb {
+        font-size: 47px;
+    }
+    #customer-FB {
+        gap: 60p
+    }
+    .content-Feedback {
+        font-size: 21px;
+    }
+    .breakfast-food {
+        padding-bottom: 0px;
+        font-size: 28px;
+    }
+    .content-detail-food {
+        font-size: 22px;
+        white-space: initial;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-bottom: 0px;
+    }
+    p#product-price {
+        font-size: 26px;
+        padding-bottom: 15px;
+        margin: 20px 0 0
+    }
+    .home-name {
+        padding: 0rem 3rem 2rem;
+    }
+    #buy-food {
+        padding: 0rem 3rem;
+    }
+    #detail-food {
+        padding: 5rem 3rem 0rem;
+    }
+    .padding-btm-60 {
+        padding-bottom: 0px;
+    }
+    #checkout {
+        padding: 2rem 3rem
+    }
+    .g-50 {
+        gap: 10px;
+    }
+    .btn-order {
+        padding: 10px 11px;
+        font-size: 13px;
+    }
+    #cart {
+        margin: 0rem 3rem 2rem;
+    }
+    #buy {
+        padding: 0 3rem 2rem
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .mhome {
+        margin:45px 0 0
+    }
+    .btnlg {
+        margin: 0 0 45px;
+    }
+    .row1 {
+        gap: 32px;
+        justify-content: space-between;
+    }
+    img.img-choose {
+        width: 70%;
+    }
+    section#buy {
+        padding: 2rem 4rem;
+    }
+    .flex-1.choose-img {
+        text-align: -webkit-center;
+    }
+    .btn-order {
+        padding: 15px 24px;
+        font-size: 16px;
+    }
+    section#head-link> div {
+        width: 42%;
+    }
+    button.margin-top-14.btn-order {
+        margin: 25px 0 0;
+    }
+    .join-NL {
+        gap: 30px;
+    }
+    .radio {
+        font-size: 19px;
+    }
+    .cart-row {
+        padding: 15px 20px;
+    }
+    #checkout {
+        padding: 1rem 4rem;
+    }
+    .overall {
+        padding: 35px 0px
+    }
+    #footer-list {
+        flex-wrap: wrap;
+    }
+    footer {
+        padding: 3rem 4rem;
+    }
+    .title-Seller {
+        font-size: 60px;
+    }
+    .content-Seller {
+        font-size: 25px;
+    }
+    .vector {
+        width: 95%;
+    }
+    img.imgChef {
+        width: 85%;
+    }
+    .navbar.d-flex {
+        padding: 3rem 4rem;
+    }
+    .frame-delivery {
+        left: -3%;
+    }
+    .overall-banner {
+        margin-bottom: 8%;
+    }
+    .menu {
+        gap: 40px;
+    }
+    .menu-mobile{
+        display: block;
+        align-self: center;
+    }  
+    .navbar.d-flex ul {
+        z-index: 1;
+        position:absolute;
+        top:115px;
+        left:0;
+        right:0;
+        flex-direction: column;
+        background-color: #fff7da;
+        gap: 0;
+        overflow: hidden;
+    }
+    .navbar.d-flex ul li {
+        padding: 22px;
+    }
+    label, p.text-grey-3.margin-top-14 {
+        font-size: 20px;
+    }
+    input#first-name {
+        font-size: 15px;
+    }
+    p.margin-top-14 {
+        font-size: 20px;
+    }
+    .quantity {
+        top: -9%;
+        font-size: 20px;
+        padding: 5px 7.5px;
+    }
+    p.margin-top-14.direct {
+        font-size: 25px;
+    }
+    svg.w-6.h-6.text-gray-800.dark\:text-white.icon-buy-now {
+        width: 60px;
+        height: 60px;
+    }
+    svg.w-6.h-6.text-gray-800.dark\:text-white.icon-buy {
+        height: 60px;
+        width: 60px;
+    }
+    .font-24-500 {
+        font-size: 30px;
+    }
+    label.name-field.margin-0.text-grey-3, p.sub {
+        font-size: 22px;
+    }
+    .home-navbar {
+        font-size: 30px;
+    }
+    .banner.d-flex.align-items-center {
+        padding: 2rem 2rem 0rem;
+    }
+    .title1 {
+        font-size: 65px;
+    }
+    .banner-content {
+        font-size: 30px;
+    }
+    .quality {
+        font-size: 20px;
+    }
+    
+    .title-WhyChoose {
+        margin: 60px 0 0px;
+        font-size: 58px;
+    }
+    .title-Reason {
+        font-size: 32px;
+    }
+    .content-right {
+        gap: 50px;
+    }
+    .reason {
+        gap: 5px;
+    }
+    .content-Reason {
+        font-size: 27px;
+    }
+    .text-menu {
+        font-size: 30px;
+    }
+    section#head-link {
+        padding: 5rem 4rem 2rem;
+    }
+    section#head-link {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .quality {
+        font-size: 35px;
+    }
+    .quality-text, b {
+        font-size: 25px;
+    }
+    #our-best {
+        padding: 0 4rem 4rem;
+    }
+    .food {
+        width: calc(50% - 1rem);
+    }
+    #customer-FB {
+        padding: 2rem 4rem 4rem;
+    }
+    .title-customer-fb {
+        font-size: 50px;
+        margin: 20px 0 0;
+    }
+    .Seller-Dish {
+        margin-bottom: 45px;
+    }
+    .content-Feedback {
+        font-size: 26px;
+    }
+    img.customer-img {
+        width: 10%;
+    }
+    .title-FB {
+        gap: 10px;
+    }
+    .min-height-240 {
+        min-height: 185px;
+    }
+    .name-customer {
+        font-size: 30px;
+    }
+    .job-customer {
+        font-size: 25px;
+    }
+    .home {
+        height: 19px;
+        width: 19px;
+    }
+    .name-button {
+        gap: 0px;
+    }
+    .new {
+        font-size: 12px;
+    }
+    .name-detail {
+        font-size: 14px;
+    }
+    .name-food {
+        width: 188px;
+    }
+    .chef-FB {
+        width: 90%;
+    }
+    img.product-image {
+        max-width: 320px;
+    }
+    .d-flex.g-50 {
+        display: block;
+    }
+    .checkout-billing.flex-1.bg-white.p-28, .checkout-product.flex-1.bg-white.p-28, .flex-1.choose-img, .flex-1.choose-img, .fb-left {
+        width: 100%;
+    }
+    .chef-FB {
+        width: 85%
+    }
+    section#people-choose {
+        display: block;
+        padding: 4rem 4rem 7rem;
+    }
+    .checkout-billing.flex-1.bg-white.p-28 {
+        margin: 0 0 50px;
+    }
+    button.button.order {
+        font-size: 20px;
+        padding: 22px 34px;
+        margin-top: 2.5%;
+
+    }
+    .position-dot {
+        left: 45%;
+        bottom: 3%;
+    }
+    .detail {
+        height: 17px;
+        width: 17px;
+    }
+    #buy-food {
+        display: block;
+        padding: 1rem 4rem
+    }
+    .detail-left, .product-item-1 {
+        width: 100%;
+    }
+    .breakfast-food {
+        font-size: 50px;
+    }
+    .content-detail-food {
+        font-size: 28px;
+    }
+    .description-food {
+        font-size: 25px;
+        margin: 25px 0px 50px;
+    }
+    .title-Seller-detail {
+        margin-bottom: 50px;
+    }
+    p#product-price {
+        font-size: 38px;
+    }
+    .slideshow-container {
+        width: 85%;
+    }
+    .price {
+        font-size: 28px;
+    }
+    .home-name {
+        padding: 2rem 4rem;
+    }
+    #cart {
+        margin: 1rem 4rem;
+    }
+    .count {
+        width:26%
+    }
+    a.button.buy-now {
+        font-size: 22px;
+    }
+    p.item-name, .item-price, .item-originalPrice {
+        font-size: 22px;
+    }
+    button.button.show-more {
+        margin-top: 55px;
+    }
+    #detail-food {
+        padding: 5rem 4rem 1rem;
+    }
+    #customer-FB {
+        display:block
+    }
+    .input-count.d-flex {
+        width: 20%;
+    }
+    .quantity-btn {
+        height: 43px;
+        width: 43px;
+    }
+    svg.w-6.h-6.text-gray-800.dark\:text-white {
+        height: 30px;
+        width: 30px;
+    }
+    .buy {
+        gap: 40px;
+        justify-content: normal
+    }
+    .title2 {
+        font-size: 50px;
+    }
+    .banner.d-flex.align-items-center {
+        display: block;
+        padding: 0rem 4rem 3rem;
+    }
+    .overall-banner{
+        width: 100%;
+    }
+    .banner-image {
+        width: 82%
+    }
+    .banner-image {
+        margin-left: 3%;
+    }
+    .content-Join {
+        margin: 0 0 20px;
+    }
+    h2#product-title {
+        padding: 2rem 0 0;
+    }
+    .cus-tab {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .row1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    .mhome {
+        margin:45px 0 0
+    }
+    .btnlg {
+        margin: 0 0 45px;
+    }
+    .quantity {
+        top: -10px;
+        padding: 7px 5.5px;
+    }
+    #checkout {
+        padding: 1rem 3rem;
+    }
+    section#head-link> div {
+        width: 48%;
+    }
+    #footer-list {
+        flex-wrap: wrap;
+    }
+    footer {
+        padding: 3rem 3rem;
+    }
+    section#buy {
+        padding: 2rem 3rem;
+    }
+    .title-content {
+        font-size: 40px;
+    }
+    .btn-order {
+        padding: 15px 24px;
+        font-size: 16px;
+    }
+    button.button.buy-now {
+        font-size: 17px;
+    }
+    .title-Seller {
+        font-size: 52px;
+    }
+    .cart-row {
+        padding: 15px 12px;
+    }
+    p.item-name, .item-price, .item-originalPrice {
+        font-size: 20px;
+    }
+    .content-Seller {
+        font-size: 22px;
+    }
+    .vector {
+        width: 95%;
+    }
+    img.imgChef {
+        width: 85%;
+    }
+    .navbar.d-flex {
+        padding: 2rem 3rem 1rem;
+    }
+    .menu {
+        gap: 40px;
+    }
+    .menu-mobile{
+        display: block;
+        align-self: center;
+    }  
+    .navbar.d-flex ul {
+        z-index: 1;
+        position:absolute;
+        top:80px;
+        left:0;
+        right:0;
+        flex-direction: column;
+        background-color: #fff7da;
+        gap: 0;
+        overflow: hidden;
+    }
+    .navbar.d-flex ul li {
+        padding:20px
+    }
+    
+    .quantity {
+        font-size: 20px;
+    }
+    svg.w-6.h-6.text-gray-800.dark\:text-white.icon-buy {
+        width: 55px;
+        height: 55px;
+    }
+    .banner.d-flex.align-items-center {
+        padding: 2rem 3rem 0rem;
+    }
+    .title1 {
+        font-size: 65px;
+    }
+    .banner-content {
+        font-size: 30px;
+    }
+    .quality {
+        font-size: 20px;
+    }
+    button.margin-top-14.btn-order {
+        margin: 28px 0 0;
+    }
+    .font-24-500 {
+        font-size: 28px;
+    }
+    label.name-field.margin-0.text-grey-3, p.sub, p.margin-top-14.direct {
+        font-size: 22px;
+    }
+    p.text-grey-3.margin-top-14, label.radio, p.margin-top-14 {
+        font-size: 20px;
+    }
+    .rs-price {
+        font-size: 30px;
+    }
+    .title-WhyChoose {
+        margin: 50px 0 0;
+        font-size: 52px;
+    }
+    .title-Reason {
+        font-size: 30px;
+    }
+    .content-right {
+        gap: 35px;
+    }
+    .reason {
+        gap: 5px;
+    }
+    .content-Reason {
+        font-size: 22px;
+    }
+    .text-menu {
+        font-size: 30px;
+    }
+    section#head-link {
+        padding: 5rem 3rem 6rem;
+    }
+    .title-Seller-home {
+        margin: 60px 0 30px
+    }
+    section#head-link {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .quality {
+        font-size: 35px;
+    }
+    .quality-text, b {
+        font-size: 23px;
+    }
+    #our-best {
+        padding: 0 3rem;
+    }
+    #customer-FB {
+        padding: 3rem 3rem 4rem;
+    }
+    .title-customer-fb {
+        font-size: 50px;
+        margin: 20px 0 0;
+    }
+    .Seller-Dish {
+        margin-bottom: 45px;
+    }
+    .content-Feedback {
+        font-size: 24px;
+    }
+    .title-FB {
+        gap: 10px;
+    }
+    .min-height-240 {
+        min-height: 185px;
+    }
+    .name-customer {
+        font-size: 25px;
+    }
+    .job-customer {
+        font-size: 22px;
+    }
+    .home {
+        height: 19px;
+        width: 19px;
+    }
+    .name-button {
+        gap: 0px;
+    }
+    .name-food {
+        width: 160px;
+    }
+    img.product-image {
+        max-width: 320px;
+    }
+    .d-flex.g-50 {
+        display: block;
+    }
+    .checkout-billing.flex-1.bg-white.p-28, .checkout-product.flex-1.bg-white.p-28, .flex-1.choose-img, .flex-1.choose-img, .fb-left{
+        width: 100%;
+    }
+    .chef-FB {
+        width: 95%;
+    }
+    section#people-choose {
+        display: block;
+        padding: 3rem 3rem
+    }
+    .checkout-billing.flex-1.bg-white.p-28 {
+        margin: 0 0 50px;
+    }
+    button.button.order {
+        font-size: 20px;
+        padding: 22px 34px;
+        margin-top: 2.5%;
+
+    }
+    .button {
+        font-size: 14px;
+    }
+    .position-dot {
+        left: 45%;
+        bottom: 3%;
+    }
+    .detail {
+        height: 17px;
+        width: 17px;
+    }
+    #buy-food {
+        display: block;
+        padding: 1rem 3rem
+    }
+    .detail-left, .product-item-1 {
+        width: 100%;
+    }
+    .breakfast-food {
+        font-size: 35px;
+    }
+    .content-detail-food {
+        font-size: 22px;
+    }
+    .description-food {
+        font-size: 20px;
+        margin: 25px 0px 50px;
+    }
+    .title-Seller-detail {
+        margin-bottom: 50px;
+    }
+    p#product-price {
+        font-size: 38px;
+    }
+    .price {
+        font-size: 28px;
+    }
+    
+    .home-name{
+        padding: 1rem 3rem;
+    }
+    #cart {
+        margin: 1rem 3rem;
+    }
+    
+    a.button.buy-now {
+        font-size: 20px;
+    }
+    button.button.show-more {
+        margin-top: 55px;
+    }
+    #detail-food {
+        padding: 2rem 3rem 1rem;
+    }
+    #customer-FB {
+        display:block
+    }
+    .buttonLogin {
+        padding: 12px 38px;
+    }
+    b.text-red {
+        font-size: 25px;
+    }
+    .count {
+        width: 26%;
+    }
+    .input-count.d-flex {
+        width: 25%;
+    }
+    .buy {
+        justify-content: normal;
+    }
+    svg.w-6.h-6.text-gray-800.dark\:text-white.icon-buy-now {
+        width: 58px;
+        height: 58px;
+    }
+    .title2 {
+        font-size: 50px;
+    }
+    .banner.d-flex.align-items-center {
+        display: block;
+    }
+    .overall-banner{
+        width: 100%;
+    }
+    .banner-image {
+        left: 8%;
+        width: 85%;
+    }
+    .banner-image {
+        margin-left: 3%;
+    }
+    .join-NL { 
+        display: block;
+    }
+    .content-Join {
+        margin: 23px 0 30px;
+        font-size: 22px;
+    }
+    h2#product-title {
+        padding: 2rem 0 0;
+    }
+    .action.d-flex {
+        justify-content: space-between;
+    }
+    .bg-vector {
+        border-radius: 55px;
+    }
+}
+
+@media only screen and (min-width: 570px) and (max-width: 767px) {
+    .quantity {
+        top: -7px;
+        padding: 3px 5.5px;
+    }
+    .mhome {
+        margin:45px 0 0
+    }
+    .btnlg {
+        margin: 0 0 45px;
+    }
+    .overall-Food {
+        gap: 20px;
+    }
+    svg.w-6.h-6.text-gray-800.dark\:text-white.icon-buy-now {
+        width: 56px;
+        height: 56px;
+    }
+    .bg-vector {
+        left: 10%;
+        border-radius: 41px;
+    }
+    .title2 {
+        padding: 10px 28px;
+        font-size: 58px;
+    }
+    
+    .item-price, .item-originalPrice {
+        min-width: 71px;
+        font-size: 15px;
+    }
+    .gap-19 {
+        gap: 5px;
+    }
+    p.item-name {
+        font-size: 15px;
+    }
+    .order {
+        padding: 19px 22px;
+    }
+    .frame-delivery {
+        left: -6%;
+    }
+    .frame-Rate {
+        left: -6%;
+    }
+    .frame-location {
+        right: -4%;
+    }
+    .rate-Infor {
+        gap: 3px;
+    }
+    #cart {
+        margin: 2rem;
+    }
+    #end {
+        display: block;
+    }
+    #buy {
+        padding: 1rem 2rem 3rem
+    }
+    .join-NL {
+        display: block;
+        padding-bottom: 15px;
+    }
+    .bottom-link {
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+    .footer-link {
+        text-align: -webkit-center;
+    }
+    #footer-list {
+        flex-wrap: wrap;
+    }
+    section#buy-food {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .detail-left, .product-item-1 {
+        width: 100%;
+    }
+    .home-name {
+        padding: 1rem 2rem;
+    }
+    .order {
+        margin-top: 5.5%;
+    }
+    
+    .position-dot {
+        bottom: 5%;
+    }
+    .breakfast-food {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .banner-image {
+        margin-left: 1%;
+    }
+    p#product-price {
+        font-size: 32px;
+    }
+    #detail-food {
+        padding: 2rem 2rem 1rem;
+    }
+    .cus-tab {
+        font-size: 25px;
+    }
+    button.button.show-more {
+        margin-top: 50px;
+    }
+    .navbar.d-flex {
+        padding: 2rem;
+    }
+    p.text-grey-3.margin-top-14, label.radio.margin-top-14, p.margin-top-14{
+        font-size: 17px;
+    }
+    .d-flex.g-50 {
+        display:block;
+    }
+    .checkout-billing.flex-1.bg-white.p-28, .checkout-product.flex-1.bg-white.p-28 {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .font-24-500 {
+        font-size: 25px;
+    }
+    #checkout {
+        padding: 1rem 2rem;
+    }
+    .title-Seller {
+        margin-bottom: 20px;
+    }
+    .Seller-Dish {
+        margin-bottom: 40px;
+    }
+    .description-food {
+        font-size: 18px;
+        margin: 20px 0
+    }
+    footer {
+        padding: 3rem 2rem;
+    }
+    .title-Join {
+        gap: 6px;
+    }
+    .title-content {
+        font-size: 40px;
+    }
+    .content-Join {
+        padding: 2rem 0;
+    }
+    .show-more {
+        padding: 12px 45px;
+    }
+    .padding-btm-60 {
+        padding-bottom: 0px;
+    }
+    .action.d-flex {
+        justify-content: space-between;
+    }
+    .button {
+        font-size: 18px;
+    }
+    #footer-list {
+        padding: 35px 0;
+    }
+    .name-detail {
+        font-size: 13px;
+    }
+    .new {
+        font-size: 13px;
+    }
+    button.btn-order {
+        font-size: 15px;
+    }
+    .btn-order {
+        padding: 14px 20px;
+    }
+    label.name-field.margin-0.text-grey-3, p.sub {
+        font-size: 20px;
+    }
+    p.margin-top-14.direct {
+        font-size: 22px;
+    }
+    .rs-price {
+        font-size: 27px;
+    }
+    .menu {
+        gap: 22px;
+    }
+    .navbar.d-flex ul {
+        z-index: 1;
+        position:absolute;
+        top:80px;
+        left:0;
+        right:0;
+        flex-direction: column;
+        background-color: #fff7da;
+        gap: 0;
+        overflow: hidden;
+    }
+    .navbar.d-flex ul li {
+        padding:20px
+    }
+    .menu-mobile{
+        display: block;
+        align-self: center;
+    } 
+    .cart-row {
+        padding:10px;
+    }
+
+    .banner.d-flex.align-items-center {
+        padding: 0rem 2rem 0rem;
+        display: block;
+    }
+    .overall-banner, .banner-image, .fb-left {
+        width: 100%;
+    }
+    .chef-FB {
+        width: 96%
+    }
+    .banner-content {
+        margin: 30px 0 0;
+        font-size: 25px;
+    }
+    .title1 {
+        font-size: 60px;
+    }
+    button.button.order {
+        font-size: 18px;
+    }
+    
+    section#head-link {
+        padding: 5rem 2rem 6rem;
+    }
+    section#people-choose {
+        padding: 0rem 2rem 2rem;
+    }
+    .overall{
+        width: 100% ;
+    }
+    section#head-link {
+        display: block;
+        text-align: -webkit-center;
+    }
+    .quality {
+        font-size: 40px;
+    }
+    .quality-text, b {
+        font-size: 25px;
+    }
+    section#people-choose {
+        display: block;
+    }
+    .text-menu {
+        font-size: 25px;
+    }
+    .buttonLogin {
+        padding: 13px 33px;
+    }
+    .title-WhyChoose {
+        font-size: 46px;
+        margin: 50px 0 20px;
+    }
+    b.text-red {
+        font-size:22px
+    }
+    .title-customer-fb {
+        font-size: 50px;
+    }
+    .title-Reason {
+        font-size: 34px;
+    }
+    .content-Reason {
+        font-size: 25px;
+    }
+    .title-Seller {
+        font-size: 50px;
+    }
+    .content-Seller {
+        font-size: 25px;
+    }
+    .content-Join {
+        font-size: 25px;
+    }
+    .row1, section#customer-FB{
+        display:block 
+    }
+    .content-right {
+        gap: 23px;
+    }
+    .overall-Reason {
+        gap: 18px;
+    }
+    .food {
+        width: 100%;
+        margin: 0 0 15px
+    }
+    #our-best {
+        padding: 3rem 2rem ;
+    }
+    #customer-FB {
+        padding: 2rem 2rem 3rem;
+    }
+    .min-height-240 {
+        min-height: 175px;
+    }
+    .frame-Rate {
+        bottom: -2%;
+        left: 0%;
+    }
+    .title-FB {
+        gap: 7px;
+    }
+    .content-Feedback {
+        font-size: 22px;
+    }
+    .d-flex.g-30 {
+        display: block;
+    }
+    .input-control {
+        margin: 26px 0 0;
+    }
+    .w-50 {
+        width: 100%;
+    }
+    .name-customer {
+        font-size: 25px;
+    }
+    .job-customer {
+        font-size: 20px;
+    }
+    .home {
+        height: 17px;
+        width: 17px;
+    }
+    .link {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    section#head-link> div {
+        width: 80%;
+    }
+    .content-detail-food {
+        font-size: 20px;
+    }
+    p#product-description {
+        padding-top: 0;
+    }
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 569px) {
+    .mhome {
+        margin:45px 0 0
+    }
+    .btnlg {
+        margin: 0 0 45px;
+    }
+    .bg-vector {
+        left: 10%;
+        border-radius: 41px;
+    }
+    .title2 {
+        padding: 11px 30px;
+        font-size: 36px;
+    }
+    .banner-item {
+        padding: 7px 1px;
+        gap: 3px;
+    }
+    .item-price, .item-originalPrice {
+        min-width: 71px;
+        font-size: 15px;
+    }
+    .gap-19 {
+        gap: 5px;
+    }
+    p.item-name {
+        font-size: 15px;
+    }
+    .order {
+        padding: 16px 15px;
+    }
+    .text-title {
+        font-size: 21px;
+    }
+    .text-content {
+        font-size: 16px;
+    }
+    .rate-Infor {
+        gap: 3px;
+    }
+    .frame-delivery {
+        left: -4%;
+    }
+    #cart {
+        margin: 2rem;
+    }
+    .frame-location {
+        right: -3%;
+    }
+    #end {
+        display: block;
+    }
+    #buy {
+        padding: 1rem 2rem
+    }
+    .join-NL {
+        display: block;
+        padding-bottom: 15px;
+    }
+    .bottom-link {
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+    .footer-link {
+        text-align: -webkit-center;
+    }
+    #footer-list {
+        flex-wrap: wrap;
+    }
+    section#buy-food {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .detail-left, .product-item-1 {
+        width: 100%;
+    }
+    .home-name {
+        padding: 1rem 2rem;
+    }
+    .position-dot {
+        bottom: 5%;
+    }
+    .breakfast-food {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .banner-image {
+        margin-left: 1%;
+    }
+    p#product-price {
+        font-size: 27px;
+    }
+    #detail-food {
+        padding: 2rem 2rem 1rem;
+    }
+    .cus-tab {
+        font-size: 20px;
+    }
+    button.button.show-more {
+        margin-top: 30px;
+    }
+    .show-more {
+        padding: 12px 25px;
+    }
+    .padding-btm-60 {
+        padding-bottom: 25px;
+    }
+    .d-flex.g-30 {
+        display: block;
+    }
+    .w-50 {
+        width: 100%;
+    }
+    .input-control {
+        margin-top: 26px;
+    }
+    .p-28 {
+        padding: 6px 28px 28px;
+    }
+    .navbar.d-flex {
+        padding: 2rem 2rem 1rem;
+    }
+    p.text-grey-3.margin-top-14 {
+        font-size: 14px;
+    }
+    .d-flex.g-50 {
+        display:block;
+    }
+    .checkout-billing.flex-1.bg-white.p-28{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .checkout-product.flex-1.bg-white.p-28 {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    button.quantity-btn.minus-btn, button.quantity-btn.plus-btn {
+        width: 35%;
+        height: 30px;
+    }
+    .item-quantity {
+        font-size: 12px;
+        height: 30px;
+        max-width: 38px;
+    }
+    p.margin-top-14 {
+        font-size: 14px;
+    }
+    .font-24-500 {
+        font-size: 18px;
+    }
+    #checkout {
+        padding: 1rem;
+    }
+    .title-Seller {
+        margin-top:25px;
+        margin-bottom: 15px;
+    }
+    .description-food {
+        font-size: 18px;
+        margin: 20px 0
+    }
+    footer {
+        padding: 2rem 2rem;
+    }
+    .title-Join {
+        gap: 6px;
+    }
+    .title-content {
+        font-size: 32px;
+    }
+    .buy {
+        gap: 20px;
+    }
+    .content-Join {
+        padding: 1rem 0;
+        font-size: 20px;
+    }
+    .action.d-flex {
+        display: block;
+    }
+    button#Save {
+        margin: 20px 0 0;
+    }
+    #footer-list {
+        padding: 35px 0;
+    }
+    .name-detail {
+        font-size: 13px;
+    }
+    .new {
+        font-size: 13px;
+    }
+    .btn-order {
+        font-size: 15px;
+    }
+    
+    .rs-price {
+        font-size: 19px;
+    }
+    .menu {
+        gap: 22px;
+    }
+    .navbar.d-flex ul {
+        z-index: 1;
+        position:absolute;
+        top:80px;
+        left:0;
+        right:0;
+        flex-direction: column;
+        background-color: #fff7da;
+        gap: 0;
+        overflow: hidden;
+    }
+    .navbar.d-flex ul li {
+        padding:20px
+    }
+    .menu-mobile{
+        display: block;
+        align-self: center;
+    } 
+    .cart-row {
+        padding:10px;
+    }
+    .banner.d-flex.align-items-center {
+        padding: 2rem 2rem 0rem;
+        display: block;
+    }
+    .overall-banner, .banner-image, .fb-left {
+        width: 100%;
+    }
+    .chef-FB {
+        width: 96%
+    }
+    .overall-banner {
+        margin-bottom: 13%;
+    }
+    .banner-content {
+        margin: 24px 0 0;
+        font-size: 23px;
+    }
+    .title1 {
+        font-size: 42px;
+    }
+    .button {
+        font-size: 15px;
+    }
+    section#head-link {
+        padding: 5rem 2rem 4rem;
+    }
+    section#people-choose {
+        padding: 0rem 2rem 4rem;
+    }
+    .overall{
+        width: 100% ;
+    }
+    section#head-link {
+        display: block;
+        text-align: -webkit-center;
+    }
+    .quality {
+        font-size: 30px;
+    }
+    .quality-text, b {
+        font-size: 20px;
+    }
+    section#people-choose {
+        display: block;
+    }
+    .text-menu {
+        font-size: 20px;
+    }
+    .buttonLogin {
+        padding: 10px 25px;
+    }
+    .title-WhyChoose {
+        font-size: 33px;
+        margin: 35px 0 0;
+    }
+    .content-right {
+        gap: 21px;
+    }
+    .overall-Reason {
+        gap: 15px
+    }
+    b.text-red {
+        font-size:15px
+    }
+    .title-customer-fb {
+        font-size: 38px;
+    }
+    .title-Reason {
+        font-size: 23px;
+    }
+    .content-Reason {
+        font-size: 20px;
+    }
+    img.img-why-choose {
+        width: 25%;
+    }
+    .name-food {
+        width: 197px;
+    }
+    .title-Seller {
+        font-size: 35px;
+    }
+    .price {
+        font-size: 25px;
+    }
+    .btn-order {
+        padding: 12px 18px;
+    }
+    .Seller-Dish {
+        margin-bottom: 40px;
+    }
+    .content-Seller {
+        font-size: 20px;
+    }
+    .row1, section#customer-FB{
+        display:block 
+    }
+    .food {
+        width: 100%;
+        margin: 0 0 15px
+    }
+    #our-best {
+        padding: 0 2rem;
+    }
+    #customer-FB {
+        padding: 3rem 2rem 1rem;
+    }
+    .min-height-240 {
+        min-height: 175px;
+    }
+    .frame-Rate {
+        bottom: -2%;
+        left: -4%;
+    }
+    .title-FB {
+        gap: 7px;
+    }
+    .content-Feedback {
+        font-size: 20px;
+    }
+    .name-customer {
+        font-size: 23px;
+    }
+    .job-customer {
+        font-size: 20x;
+    }
+    .home {
+        height: 16px;
+        width: 16px;
+    }
+    .link {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    section#head-link> div {
+        width: 80%;
+    }
+    .content-detail-food {
+        font-size: 18px;
+    }
+    p#product-description {
+        padding-top: 0;
+    }
+    .count {
+        font-size: 19px;
+        width: 29%;
+    }
+    .number {
+        min-width: 45px;
+    }
+    .input-count.d-flex {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 424px) {
+    .mhome {
+        margin:45px 0 0
+    }
+    .btnlg {
+        margin: 0 0 45px;
+    }
+    img.img-why-choose {
+        width: 25%;
+    }
+    .item-name {
+        font-size: 12px;
+    }
+    .item-price, .item-originalPrice {
+        min-width: 45px;
+        font-size: 12px;
+    }
+    svg.w-6.h-6.text-gray-800.dark\:text-white.icon-buy-now {
+        width: 45px;
+        height: 45px;
+    }
+    #end {
+        display: block;
+    }
+    .bottom-link {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .footer-link {
+        text-align: -webkit-center;
+    }
+    button#Save {
+        font-size: 15px;
+        margin-top: 25px
+    }
+    label.name-field.margin-0.text-grey-3, p.sub, p.text-grey-3.margin-top-14, .radio, p.margin-top-14  {
+        font-size: 18px;
+    }
+    p.margin-top-14.direct {
+        font-size: 22px;
+    }
+    .title-Seller-detail {
+        margin-bottom: 25px;
+    }
+    button.button.show-more {
+        margin-top: 30px;
+    }
+    .plus-btn {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .minus-btn {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    input.item-quantity {
+        font-size: 10px;
+    }
+    .item-quantity {
+        height: 26px;
+        padding:0;
+        max-width: 20px;
+    }
+    .quantity-btn {
+        height: 26px;
+        width: 20px;
+    }
+    svg.w-6.h-6.text-gray-800.dark\:text-white {
+        width: 18px;
+        height: 18px;
+    }
+    .show-more {
+        font-size: 13px;
+        padding: 12px 35px;
+    }
+    #footer-list {
+        padding: 40px 0;
+    }
+    .name-detail {
+        font-size: 12px;
+    }
+    .new {
+        font-size: 12px;
+    }
+    #footer-list {
+        flex-wrap: wrap;
+    }
+    .footer-contain {
+        padding: 0rem 1rem 0rem;
+    }
+    .join-NL {
+        display: block;
+    }
+    footer {
+        padding: 0 0 35px
+    }
+    .subscribe {
+        padding: 10px 15px;
+    }
+    .d-flex.g-30 {
+        display: block;
+    }
+    .w-50 {
+        width: 100%;
+    }
+    .input-control {
+        margin-top: 26px;
+    }
+    .btn-order {
+        padding: 10px 17px;
+    }
+    .title-customer-fb {
+        font-size: 34px;
+    }
+    .content-Feedback {
+        font-size: 18px;
+    }
+    img.customer-img {
+        width: 17%;
+    }
+    .menu {
+        gap: 30px;
+    }
+    .navbar.d-flex ul {
+        z-index: 1;
+        position:absolute;
+        top:80px;
+        left:0;
+        right:0;
+        flex-direction: column;
+        background-color: #fff7da;
+        gap: 0;
+        overflow: hidden;
+    }
+    .navbar.d-flex ul li {
+        padding:20px
+    }
+    .menu-mobile{
+        align-self:center;
+        display: block;
+    } 
+    .navbar.d-flex {
+        padding: 2rem 1rem 1rem;
+    }
+    .name-food {
+        width: 176px;
+        font-size: 22px;
+    }
+    .row1 {
+        justify-content: center;
+    }
+
+    .title-WhyChoose {
+        font-size: 31px;
+        margin-top: 30px;
+    }
+    .content-right {
+        gap: 20px;
+    }
+    .cus-tab {
+        font-size: 19px;
+    }
+    .overall-Reason {
+        gap: 12px;
+    }
+    .home {
+        height: 15px;
+        width: 15px;
+    }
+    img.logo {
+        width: 90%;
+    }
+    .d-flex.g-50 {
+        display: block;
+    }
+    .banner.d-flex.align-items-center {
+        padding: 1rem 1rem 0rem;
+        display: block;
+    }
+    .checkout-billing.flex-1.bg-white.p-28{
+        width: 100%;
+        padding-top: 6px;
+        margin-bottom: 35px;
+    }
+    .checkout-product.flex-1.bg-white.p-28 {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .description-food {
+        font-size: 18px;
+        margin: 25px 0px 28px 0px
+    }
+    .overall-banner, .banner-image {
+        width: 100%;
+    }
+    .banner-image {
+        margin-bottom: 4rem;
+    }
+    .text-title {
+        font-size: 16px;
+    }
+    #checkout {
+        padding: 1rem 1rem 0;
+    }
+    section#result {
+        padding: 0 1rem
+    }
+    .text-content {
+        font-size: 13px;
+    }
+    .gap-19 {
+        gap: 0px;
+    }
+    .banner-item {
+        gap: 9px;
+    }
+    .banner-item {
+        padding: 4px 0px;
+    }
+    .like, .rate {
+        gap: 5px;
+    }
+    .frame-Rate {
+        left: -1%;
+    }
+    .banner-image {
+        margin-left: 8px;
+    }
+    section#head-link, section#people-choose {
+        padding: 0rem 1rem 3rem;
+    }
+    .frame-delivery {
+        left: -1%;
+    }
+    section#head-link {
+        display: block;
+        text-align: -webkit-center;
+    }
+    .link {
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .frame-location {
+        right: 2%;
+        bottom: 2%;
+    }
+    .quality {
+        font-size: 28px;
+    }
+    .quality-text, b {
+        font-size: 18px;
+    }
+    .icon-title {
+        gap: 10px;
+    }
+    .home-name, #buy-food {
+        padding: 1rem 1rem;
+    }
+    section#people-choose {
+        display: block;
+    }
+    #our-best {
+        padding: 0 1rem;
+    }
+    .title-Seller {
+        font-size: 36px;
+    }
+    section#buy-food {
+        display: block;
+    }
+    .detail-left, .product-item-1 {
+        width: 100%;
+    }
+    .title-Reason{
+        font-size: 22px;
+    }
+    .content-Seller {
+        font-size:18px
+    }
+    #detail-food {
+        padding: 2rem 1rem 1rem;
+    }
+
+    .position-dot {
+        bottom: 5%;
+    }
+    #customer-FB {
+        padding: 3rem 1rem 3rem;
+        display: block;
+    }
+    .count {
+        font-size: 15px;
+        width: 32%
+    }
+    .input-count.d-flex {
+        width: 28%;
+    }
+    .overall-Food {
+        gap: 18px;
+    }
+    svg.w-6.h-6.text-gray-800.dark\:text-white.icon-buy {
+        width: 46px;
+        height: 46px;
+    }
+    .title-FB {
+        gap: 10px;
+    }
+    img.product-image {
+        max-width: 310px;
+    }
+    .fb-left, .chef-FB {
+        width: 100%;
+    }
+    section#head-link> div {
+        width: 90%;
+    }
+    .vector {
+        width: 99%;
+    }
+    #cart {
+        margin: 1rem 1rem;
+    }
+    .text-menu {
+        font-size: 20px;
+    }
+    .buttonLogin {
+        padding: 10px 23px;
+    }
+    b.text-red {
+        font-size:14px
+    }
+    .title1 {
+        font-size: 35px;
+    }
+    .title2 {
+        padding: 10px 25px;
+        font-size: 30px;
+    }
+    #buy {
+        padding: 1rem 1rem 3rem;
+    }
+    .title-Join {
+        margin: 35px 0 0;
+    }
+    .cart-row {
+        padding: 10px 10px;
+    }
+    .banner-content {
+        font-size: 18px;
+    }
+    .detail {
+        height: 12px;
+        width: 12px;
+    }
+    .navbar.d-flex ul li {
+        padding: 15px;
+    }
+    .order {
+        font-size: 15px;
+        padding: 14px 17px;
+        font-weight: 600;
+        margin-top: 0;
+    }
+    .overall-banner {
+        margin-bottom: 9%;
+    }
+    .banner-item {
+        border-radius: 10px;
+    }
+    .bg-vector {
+        border-radius: 33px;
+    }
+    .content-Reason {
+        font-size: 18px;
+    }
+    .Seller-Dish {
+        margin-bottom: 30px;
+    }
+    .buy-now {
+        font-size: 16px;
+    }
+    .price {
+        font-size: 24px;
+    }
+    .min-height-240 {
+        min-height: 200px;
+    }
+    .name-customer {
+        font-size: 22px;
+    }
+    .job-customer {
+        font-size: 20px;
+    }
+    .title-content {
+        font-size: 34px;
+    }
+    .content-Join {
+        margin: 15px 0 20px;
+        font-size: 18px;
+    }
+    .action.d-flex {
+        display: block;
+    }
+    .breakfast-food {
+        padding: 15px 0 6px;
+        font-size: 22px;
+    }
+    .content-detail-food {
+        padding: 10px 0 25px;
+        font-size: 18px;
+    }
+    .buy {
+        gap: 15px;
+    }
+    .number {
+        height: 32px;
+        min-width: 35px;
+    }
+    .padding-btm-34 {
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .mhome {
+        margin:45px 0 0
+    }
+    .btnlg {
+        margin: 0 0 45px;
+    }
+    .item-name {
+        font-size: 12px;
+    }
+    .item-price, .item-originalPrice {
+        min-width: 45px;
+        font-size: 12px;
+    }
+    svg.w-6.h-6.text-gray-800.dark\:text-white.icon-buy-now {
+        width: 40px;
+        height: 40px;
+    }
+    #end {
+        display: block;
+    }
+    .bottom-link {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .footer-link {
+        text-align: -webkit-center;
+    }
+    button#Save {
+        font-size: 15px;
+        margin-top: 25px
+    }
+    label.name-field.margin-0.text-grey-3, p.sub, p.text-grey-3.margin-top-14, .radio, p.margin-top-14  {
+        font-size: 18px;
+    }
+    p.margin-top-14.direct {
+        font-size: 22px;
+    }
+    .title-Seller-detail {
+        margin-bottom: 25px;
+    }
+    button.button.show-more {
+        margin-top: 30px;
+    }
+    .plus-btn {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .minus-btn {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    input.item-quantity {
+        font-size: 10px;
+    }
+    .item-quantity {
+        height: 26px;
+        padding:0;
+        max-width: 20px;
+    }
+    .quantity-btn {
+        height: 26px;
+        width: 20px;
+    }
+    svg.w-6.h-6.text-gray-800.dark\:text-white {
+        width: 18px;
+        height: 18px;
+    }
+    .show-more {
+        font-size: 13px;
+        padding: 12px 35px;
+    }
+    #footer-list {
+        padding: 40px 0;
+    }
+    .name-detail {
+        font-size: 12px;
+    }
+    .new {
+        font-size: 12px;
+    }
+    #footer-list {
+        flex-wrap: wrap;
+    }
+    .footer-contain {
+        padding: 0rem 1rem 0rem;
+    }
+    .join-NL {
+        display: block;
+    }
+    footer {
+        padding: 0 0 35px
+    }
+    .subscribe {
+        padding: 10px 15px;
+    }
+    .d-flex.g-30 {
+        display: block;
+    }
+    .w-50 {
+        width: 100%;
+    }
+    .input-control {
+        margin-top: 26px;
+    }
+    
+    .btn-order {
+        padding: 10px 17px;
+    }
+    .title-customer-fb {
+        font-size: 34px;
+    }
+    .content-Feedback {
+        font-size: 18px;
+    }
+    img.customer-img {
+        width: 16%;
+    }
+    .menu {
+        gap: 30px;
+    }
+    .navbar.d-flex ul {
+        z-index: 1;
+        position:absolute;
+        top:80px;
+        left:0;
+        right:0;
+        flex-direction: column;
+        background-color: #fff7da;
+        gap: 0;
+        overflow: hidden;
+    }
+    .navbar.d-flex ul li {
+        padding:20px
+    }
+    .menu-mobile{
+        align-self:center;
+        display: block;
+    } 
+    .navbar.d-flex {
+        padding: 2rem 1rem 1rem;
+    }
+    .name-food {
+        width: 175px;
+        font-size: 22px;
+    }
+    .row1 {
+        justify-content: center;
+    }
+
+    .title-WhyChoose {
+        font-size: 31px;
+        margin-top: 30px;
+    }
+    .content-right {
+        gap: 20px;
+    }
+    .cus-tab {
+        font-size: 19px;
+    }
+    .overall-Reason {
+        gap: 12px;
+    }
+    .home {
+        height: 15px;
+        width: 15px;
+    }
+    img.logo {
+        width: 90%;
+    }
+    .d-flex.g-50 {
+        display: block;
+    }
+    .banner.d-flex.align-items-center {
+        padding: 1rem 1rem 0rem;
+        display: block;
+    }
+    .checkout-billing.flex-1.bg-white.p-28{
+        width: 100%;
+        padding-top: 6px;
+        margin-bottom: 35px;
+    }
+    .checkout-product.flex-1.bg-white.p-28 {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .description-food {
+        font-size: 18px;
+        margin: 25px 0px 28px 0px
+    }
+    .overall-banner, .banner-image {
+        width: 100%;
+    }
+    .banner-image {
+        margin-bottom: 4rem;
+    }
+    .text-title {
+        font-size: 16px;
+    }
+    #checkout {
+        padding: 1rem 1rem 0;
+    }
+    section#result {
+        padding: 0 1rem
+    }
+    .text-content {
+        font-size: 13px;
+    }
+    .gap-19 {
+        gap: 0px;
+    }
+    .banner-item {
+        gap: 9px;
+    }
+    .banner-item {
+        padding: 4px 0px;
+    }
+    .like, .rate {
+        gap: 5px;
+    }
+    .frame-Rate {
+        left: -1%;
+    }
+    .banner-image {
+        margin-left: 8px;
+    }
+    section#head-link, section#people-choose {
+        padding: 0rem 1rem 3rem;
+    }
+    .frame-delivery {
+        left: -1%;
+    }
+    section#head-link {
+        display: block;
+        text-align: -webkit-center;
+    }
+    .link {
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .frame-location {
+        right: 2%;
+        bottom: 2%;
+    }
+    .quality {
+        font-size: 28px;
+    }
+    .quality-text, b {
+        font-size: 18px;
+    }
+    .icon-title {
+        gap: 10px;
+    }
+    .home-name, #buy-food {
+        padding: 1rem 1rem;
+    }
+    section#people-choose {
+        display: block;
+    }
+    #our-best {
+        padding: 0 1rem;
+    }
+    .title-Seller {
+        font-size: 34px;
+    }
+    section#buy-food {
+        display: block;
+    }
+    .detail-left, .product-item-1 {
+        width: 100%;
+    }
+    .title-Reason{
+        font-size: 22px;
+    }
+    .content-Seller {
+        font-size:18px
+    }
+    #detail-food {
+        padding: 2rem 1rem 1rem;
+    }
+
+    .position-dot {
+        bottom: 5%;
+    }
+    #customer-FB {
+        padding: 3rem 1rem 3rem;
+        display: block;
+    }
+    .count {
+        font-size: 15px;
+        width: 32%;
+    }
+    .input-count.d-flex {
+        width: 30%;
+    }
+    svg.w-6.h-6.text-gray-800.dark\:text-white.icon-buy {
+        width: 46px;
+        height: 46px;
+    }
+    .title-FB {
+        gap: 10px;
+    }
+    img.product-image {
+        max-width: 310px;
+    }
+    .fb-left, .chef-FB {
+        width: 100%;
+    }
+    section#head-link> div {
+        width: 90%;
+    }
+    .vector {
+        width: 99%;
+    }
+    #cart {
+        margin: 1rem 1rem;
+    }
+    .text-menu {
+        font-size: 20px;
+    }
+    .buttonLogin {
+        padding: 10px 23px;
+    }
+    b.text-red {
+        font-size:14px
+    }
+    .title1 {
+        font-size: 35px;
+    }
+    .title2 {
+        padding: 10px 25px;
+        font-size: 30px;
+    }
+    #buy {
+        padding: 1rem 1rem 3rem;
+    }
+    .title-Join {
+        margin: 35px 0 0;
+    }
+    .cart-row {
+        padding: 10px 10px;
+    }
+    .banner-content {
+        font-size: 18px;
+    }
+    .detail {
+        height: 12px;
+        width: 12px;
+    }
+    .navbar.d-flex ul li {
+        padding: 15px;
+    }
+    .order {
+        font-size: 15px;
+        padding: 14px 17px;
+        font-weight: 600;
+        margin-top: 0;
+    }
+    .overall-banner {
+        margin-bottom: 9%;
+    }
+    .banner-item {
+        border-radius: 10px;
+    }
+    .bg-vector {
+        border-radius: 33px;
+    }
+    .content-Reason {
+        font-size: 18px;
+    }
+    .Seller-Dish {
+        margin-bottom: 30px;
+    }
+    .buy-now {
+        font-size: 16px;
+    }
+    .price {
+        font-size: 24px;
+    }
+    .min-height-240 {
+        min-height: 200px;
+    }
+    .name-customer {
+        font-size: 22px;
+    }
+    .job-customer {
+        font-size: 20px;
+    }
+    .title-content {
+        font-size: 34px;
+    }
+    .content-Join {
+        margin: 15px 0 20px;
+        font-size: 18px;
+    }
+    .action.d-flex {
+        display: block;
+    }
+    .breakfast-food {
+        padding: 15px 0 6px;
+        font-size: 22px;
+    }
+    .overall-Food {
+        gap: 18px;
+    }
+    .content-detail-food {
+        padding: 10px 0 25px;
+        font-size: 18px;
+    }
+    .buy {
+        gap: 15px;
+    }
+    .number {
+        height: 32px;
+        min-width: 35px;
+    }
+    .padding-btm-34 {
+        padding-bottom: 20px;
+    }
+    img.img-why-choose {
+        width: 25%;
+    }
+}   
+
+
+
+
+ 

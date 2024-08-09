@@ -1,0 +1,62 @@
+#checkout{
+    padding: 30px 80px;
+}
+.checkout-billing.flex-1.bg-white.p-28, .checkout-product.flex-1.bg-white.p-28 {
+    width:50%
+}
+.btn-order {
+    padding: 10px 24px;
+    font-size: 14px;
+    border-radius: 38px;
+    background: var(--Primary, #F03328);
+    border: 0px solid var(--Primary, #F03328);
+    color: white;
+    font-weight: 500;
+    line-height: 120%;
+}
+.name-city {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--neutral-grey-04, #5C5C5C);
+    border-radius: 8px;
+    border: 1px solid var(--neutral-grey-08, #D6D6D6);
+    display: block;
+    box-sizing: border-box;
+    padding: 0.5rem 0.75rem;
+}
+.radio {
+    display: ruby;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: #9F9F9F;
+}
+.radio-group {
+    display: contents;
+}
+label.radio {
+    display: flex;
+    gap: 10px;
+}
+.form-billing-details{
+    display: flex;
+    padding: 22px 30px;
+    flex-direction: column;
+    background: #FFF;
+    gap:30px
+}
+.form-checkout {
+    padding: 20px 28px 0
+}
+.rs-price {
+    color: var(--Primary, #B88E2F);
+    font-size: 24px;
+    font-weight: 700;
+}
+.coupon-code {
+    width: 55%;
+    border: 1px solid #F03328;
+}

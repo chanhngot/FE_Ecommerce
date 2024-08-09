@@ -1,0 +1,340 @@
+.title1 {
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.title2 {
+    transform: rotate(-11.457deg);
+    padding: 10px 40px;
+    border-radius: 54px;
+    background: linear-gradient(109deg, #FF9E0C -0.93%, #D58000 104.81%);
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 120%; 
+}
+.banner-content {
+    color:#666;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 120%; 
+    margin:25px 0
+    
+}
+.frame-delivery{
+    position: absolute;
+    top: 21.5%;
+    left: -9%
+}
+.frame-Rate {
+    position: absolute;
+    left: -7%;
+    bottom: 1%;
+}
+.frame-location {
+    position: absolute;
+    right: -1%;
+    bottom: 7%;
+}
+.heart {
+    width: 16px;
+    height: 16px;
+}
+.like, .rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.rate-like {
+    display: flex;
+    gap: 19px;
+}
+.banner {
+    padding-bottom: 86px;
+    padding-left:71.5px;
+    padding-right: 55.62px;
+    gap: 36px;
+    
+}
+.overall-banner{
+    width:40%;
+    margin-top: 4%;
+} 
+.order {
+    padding: 17px 34px;
+    font-weight: 800;
+    margin-top: 7.5%;
+}
+.banner-image {
+    position: relative;
+    margin-left: 5%;
+    display:flex;
+    justify-content: center;
+    width:60%;
+}
+img.imgChef22 {
+    width:85%
+}
+.bg-vector {
+    width: 82%;
+    height: 82%;
+    background: var(--orange-color);
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 67px;
+}
+.img23, .img24 {
+    width: 26%
+}
+img.img-avatar {
+    width: 23%
+}
+.cmt {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.text-title {
+    color: var(--Grey-grey-500, #404040);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 120%; 
+}
+.text-content {
+    color: var(--Grey-grey-400, #666);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+}
+.banner-item {
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.rate-Infor {
+    gap: 7px;
+}
+section#head-link {
+    gap: 24px;
+    padding-bottom: 80px;
+    padding-left:71.5px;
+    padding-right:68.5px;
+    display: flex;
+}
+section#head-link> div {
+    width: 50%;
+}
+section#people-choose {
+    padding-left: 71.5px;
+    padding-right: 67.5px;
+    gap: 84px;
+}
+#our-best {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding-top: 80px;
+    padding-left: 71.5px;
+    padding-right: 68.5px;
+}
+.Seller-Dish {
+    margin-bottom: 68px;
+}
+.title-Seller-home {
+    margin-bottom: 18px;
+}
+.title-Seller {
+    color: var(--neutral-grey-02, #1F1F1F);
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 120%; 
+}
+.content-Seller {
+    color: var(--neutral-grey-04, #5C5C5C);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 120%;
+}
+#customer-FB {
+    display: flex;
+    padding: 70px;
+    align-items: center;
+    gap: 105px;
+    padding-right: 37.5px;
+    padding-left: 75.5px;
+    padding-bottom: 40px;
+}
+.fb-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+}
+.infor-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.title-FB {
+    display: flex;
+    gap: 15px
+}
+.title-customer-fb{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%; 
+}
+.infor {
+    display: flex; 
+    bottom: 7%;
+    position: absolute;
+}
+.fb-left, .chef-FB{
+    width: 50%
+}
+.chef-FB {
+    position: relative;
+}
+img.imgChef {
+    width:100%
+}
+.vector {
+    fill: var(--Secondry, #FF9E0C);
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    z-index: -1;
+    width:100%
+}
+svg.vector-custom {
+    width:85%
+}
+.name-customer{
+    color: var(--Primary, #F03328);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%; 
+}
+.job-customer {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%; 
+}
+.quality {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 120%; 
+}
+.quality-text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+}
+.content-Reason {
+    color: var(--Grey-grey-500);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+}
+.reason {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1 0 0;
+}
+.overall-Reason {
+    display: flex;
+    flex-direction: row;
+    padding: 18px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.join-right {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+img.img-content {
+    width: 50%;
+    height: 50%;
+}
+img.img-choose {
+    border-radius: 29px;
+    width:100%
+}
+img.img-why-choose {
+    width: 18%
+}
+.link {
+    text-align: center;
+}
+.link b:hover {
+    color: #F03328;
+}
+.overall {
+    display: flex;
+    padding: 22px 18px;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.title-Reason {
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 120%; /* 37.2px */
+}
+.customer {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.title-WhyChoose {
+    color: var(--Grey-grey-700);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%; 
+}
+img.customer-img {
+    width: 12%;
+}
+.content-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.icon-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.name-job {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}

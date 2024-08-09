@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Restaurant Food Landing</title>
+<link rel="stylesheet" href="./assets/css/font-face.css">
+<link rel="stylesheet" href="./assets/css/styles.css">
+<link rel="stylesheet" href="./assets/css/custom.css">
+<link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="wrapp-contain">
+        <section id="header">
+            <div class="ellipse ellipse-2"></div>
+            <div class="navbar d-flex">
+                <a href="home.html">
+                    <img class="logo" src="./assets/images/logo.png"/> 
+                </a>  
+                <div class="menu-hambuger">
+                    <ul class="menu d-flex" id="menuList">
+                        <li class="mhome"><a class="text-menu" href="home.html">Home</a></li>
+                        <li><a class="text-menu" href="#our-best">Our Menu</a></li>
+                        <li><a class="text-menu" href="#">Foods</a></li>
+                        <li><a class="text-menu" href="#">About Us</a></li>
+                        <li><a class="text-menu" href="#">Contact Us</a></li>
+                        <li><a href="cart.html">
+                            <div class="icon-cart-header pointer">
+                                <svg class="w-6 h-6 text-gray-800 dark:text-white icon-buy" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                                </svg>
+                                <span id="cart-quantity" class="quantity">0</span>
+                            </div>
+                            </a>
+                        </li>
+                        <li class="btnlg"><button class="buttonLogin"><b class="text-red">Login</b></button></li>
+                    </ul>
+                </div>         
+                    
+                <div class="menu-mobile">
+                    <div class="container" onclick="handleMenuToggle(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                      </div>
+                </div>
+            </div>  
+            <div class="banner d-flex align-items-center">
+                <div class="overall-banner">
+                    <div class="banner-infor direction-column">
+                        <div class="banner-infor-title d-flex direction-column">
+                            <div class="d-flex align-items-center gap-10 mb-2-rem">
+                                <h1 class="title1 text-grey d-flex">Desire</h1>
+                                <h1 class="title2 text-white">Food</h1>
+                            </div>
+                            <h1 class="title1 text-grey">for Your Taste</h1>
+                        </div>
+                        <p class="banner-content">Food is what we eat to stay alive and healthy. It 
+                            comes in many different forms and flavors, from
+                            fruits and vegetables to meats and grains.</p>
+                    </div>
+                    <button class="button order">Order Now</button>
+                </div>
+
+                <div class="banner-image">
+                    <img class="imgChef22" src="./assets/images/image-22.png">
+                <div class="bg-vector">
+                </div>
+                    <div class="banner-item frame-delivery">
+                        <img class="img23" src="./assets/images/image-23.png"/>
+                        <div class="cmt">
+                            <h3 class="text-title">Delivery</h3>
+                            <p class="text-content">in 30 mint</p>
+                        </div>
+                    </div>
+                    <div class="banner-item frame-Rate">
+                        <img class="img-avatar" src="./assets/images/Ellipse-2-(1).png"/>
+                        <div class="rate-Infor d-flex direction-column">
+                            <h3 class="text-title">Ali Ahmand</h3>
+                            <div class="Rate-like d-flex gap-19">
+                                <div class="rate">
+                                    <img class="img24" src="./assets/images/image-24.png">
+                                    <p class="text-content">4.5</p>
+                                </div>
+                                <div class="like">
+                                    <div class="heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                                            <g clip-path="url(#clip0_1_889)">
+                                              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.92611 1.31401C13.3641 -3.24799 24.4601 4.73501 8.92611 15C-6.60789 4.73601 4.48811 -3.24799 8.92611 1.31401Z" fill="#F03328"/>
+                                            </g>
+                                            <defs>
+                                              <clipPath id="clip0_1_889">
+                                                <rect width="16" height="16" fill="white" transform="translate(0.926117)"/>
+                                              </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                    <p class="text-content">1k Likes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-item frame-location">
+                        <img class="img23" src="./assets/images/image-23-(1).png"/>
+                        <div class="cmt">
+                            <h3 class="text-title">Location</h3>
+                            <p class="text-content">at destination</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section id="head-link">
+            <div class ="link">
+                <div class="overall">
+                    <div class="content-link">
+                        <div class="icon-title">
+                            <img class="img-content" src="./assets/images/01.png"/>
+                            <p class="quality"> Quality Food </p>
+                        </div>
+                        <p class="quality-text text-grey"> Contrary to popular belief,<br> Lorem Ipsum is not simply<br> random text </p>
+                    </div>
+                    <a href=""><b>Learn More</b></a>
+                </div>
+            </div>    
+            <div class ="link">
+                <div class="overall">
+                    <div class="content-link">
+                        <div class="icon-title">
+                            <img class="img-content" src="./assets/images/02.png"/>
+                            <p class="quality"> Quality Food </p>
+                        </div>
+                        <p class="quality-text text-grey"> Contrary to popular belief,<br> Lorem Ipsum is not simply<br> random text </p>
+                    </div>
+                    <a href=""><b>Learn More</b></a>
+                </div>
+            </div>       
+            <div class ="link">
+                <div class="overall">
+                    <div class="content-link">
+                        <div class="icon-title">
+                            <img class="img-content" src="./assets/images/4.png"/>
+                            <p class="quality"> Quality Food </p>
+                        </div>
+                        <p class="quality-text text-grey"> Contrary to popular belief,<br> Lorem Ipsum is not simply<br> random text </p>
+                    </div>
+                    <a href=""><b>Learn More</b></a>
+                </div>
+            </div>
+            <div class ="link">
+                <div class="overall">
+                    <div class="content-link">
+                        <div class="icon-title">
+                            <img class="img-content" src="./assets/images/image-26.png"/>
+                            <p class="quality"> Quality Food </p>
+                        </div>
+                        <p class="quality-text text-grey"> Contrary to popular belief,<br> Lorem Ipsum is not simply<br> random text </p>
+                    </div>
+                    <a href=""><b>Learn More</b></a>
+                </div>
+            </div>
+        </section>
+        <section id="people-choose" class="position-relative d-flex direction-row">
+            <div class="flex-1 choose-img">
+                <img class="img-choose" src="./assets/images/image-28.png"/>
+                
+            </div>
+            <div  class="flex-1 w-100">
+                <div class="content-right">
+                    <h2 class="title-WhyChoose">Why People Choose us?</h2>
+                    <div class="overall-Reason">
+                        <img class="img-why-choose" src="./assets/images/Frame-35.png">
+                        <div>
+                            <div class="reason">
+                                <h3 class="title-Reason">Convenient and Reliable</h3>
+                                <p class="content-Reason">Whether you dine in, take out, or order delivery, our
+                                    service is convenient, fast, and reliable, making
+                                    mealtime hassle-free.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overall-Reason">
+                        <img class="img-why-choose" src="./assets/images/Frame-35.png">
+                        <div>
+                            <div class="reason">
+                                <h3 class="title-Reason">Variety of Options</h3>
+                                <p class="content-Reason">From hearty meals to light snacks, we offer a wide
+                                     range of options to suit every taste and craving.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="overall-Reason">
+                        <img class="img-why-choose" src="./assets/images/Frame-35.png">
+                        <div>
+                            <div class="reason">
+                                <h3 class="title-Reason">Eat Burger</h3>
+                                <p class="content-Reason">Our burgers are grilled to perfection, with juicy
+                                     patties and flavorful toppings that make every bite a
+                                      delicious experience.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="ellipse ellipse-3"></div>
+        </section>        
+        <section id="our-best" class="position-relative">
+            <div class="ellipse ellipse-4"></div>
+            <div class="ellipse ellipse-0"></div>
+            <div class="Seller-Dish">
+                <h2 class="title-Seller-home title-Seller">Our best Seller Dishes🔥🔥</h2>
+                <p class="content-Seller">Our fresh garden salad is a light and refreshing option. It features a mix of
+                     crisp lettuce, juicy tomatoe all tossed in your choice of dressing.</p>
+            </div>
+            <div class="listFood" id="listFood">
+            </div> 
+        </section>
+        <section id="customer-FB" >
+            <div class="fb-left">
+                <div class="infor-text">
+                    <div class="title-FB">
+                        <h2 class="title-customer-fb text-black"> Customer</h2>
+                        <h2 class="title-customer-fb text-red">Feedback</h2>
+                    </div>
+                    <div class="slide-show">
+                        <div class="mySlides fade">
+                            <div class="min-height-240">
+                                <p class="content-Feedback padding-btm-34">I recently dined at your restaurant and wanted to share
+                                    my experience. The food was absolutely delicious, and I
+                                     was impressed by the freshness of the ingredients. Each
+                                      dish was bursting with flavor, and the portion sizes
+                                       were perfect. The service was quick and efficient, and
+                                        the staff was incredibly friendly and welcoming.
+                                </p>
+                            </div>
+    
+                            <div class="customer">
+                                <img class="customer-img" src="./assets/images/Ellipse-2.png"/>
+                                <div class="name-job">
+                                    <p class="name-customer">Tayyab Sohail</p>
+                                    <p class="job-customer">UX/UI Designer</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="mySlides fade">
+                            <div class="min-height-240">
+                                <p class="content-Feedback padding-btm-34">I recently dined at your restaurant and wanted to share
+                                    my experience. The food was absolutely delicious, and I
+                                     was impressed by the freshness of the ingredients. Each
+                                      dish was bursting with flavor, and the portion sizes
+                                       were perfect.
+                                </p>
+                            </div>
+    
+                            <div class="customer">
+                                <img class="customer-img" src="./assets/images/Ellipse-2.png"/>
+                                <div class="name-job">
+                                    <p class="name-customer">Tayyab Linh</p>
+                                    <p class="job-customer">UX/UI Designer</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="mySlides fade">
+                            <div class="min-height-240">
+                                <p class="content-Feedback padding-btm-34">My favorite food is Phở. It is one of the 
+                                    specialties in Vietnamese cuisine.
+                                     It has been popular with not only Vietnamese people but also foreign tourists. 
+                                     Phở consists of rice noodles, sliced beef, broth made from beef bones and onions.
+                               </p>
+                            </div>
+                            
+                            <div class="customer">
+                                <img class="customer-img"src="./assets/images/Ellipse-2.png"/>
+                                <div class="name-job">
+                                    <p class="name-customer">Tayyab Hang</p>
+                                    <p class="job-customer">UX/UI Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>              
+                </div> 
+    
+                <div class="infor" style="text-align:center">
+                    <span class="dot home" onclick="currentSlide(1)"></span>
+                    <span class="dot home" onclick="currentSlide(2)"></span>
+                    <span class="dot home" onclick="currentSlide(3)"></span>
+                </div>
+                
+    
+            </div>
+            <div class="chef-FB">
+                <img class="imgChef" src="./assets/images/Chef.png">
+                <div class="vector">
+                    <svg class="vector-custom" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 505 406" fill="none">
+                        <path d="M500.5 405.5H4.5C2.29086 405.5 0.5 403.709 0.5 401.5V188.285C0.5 186.611 1.5421 185.114 3.11183 184.534L499.112 0.993835C501.724 0.0271758 504.5 1.95982 504.5 4.74525V401.5C504.5 403.709 502.709 405.5 500.5 405.5Z" fill="#FF9E0C"/>
+                    </svg>
+                </div>
+                <div class="ellipse ellipse-5"></div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="footer-contain">
+            <section>
+                <div class="join-NL">
+                    <div class="join-right">
+                        <div class="title-Join">
+                            <p class="title-content text-black">Join Our</p>
+                            <p class="title-content text-red">Newsletter</p>
+                        </div>
+                        <p class="content-Join">Be the first to know about our latest updates, exclusive offers, and more.</p>
+                    </div>
+                    <form id="subscribe" method="post" onsubmit="return save_data()">
+                        <div class="action d-flex">
+                            <input class="enter-email" type="text" name="textbox" id="emailInput" placeholder="Enter your email address" size="35" required/>
+                            <button class="button subscribe" type="submit" value ="Save" id="Save">Subscribe</button>
+                        </div>
+                        <div id="error" class="margin-top-14"></div>
+                    </form>
+                </div>
+            </section> 
+            <hr class="solid margin-0"/> 
+            <section id="footer-list">
+                <div class="name-list">
+                    <p class="name">Products & Service</p>
+                    <div class="list">
+                        <a class="name-detail" href="">Products</a>
+                        <a class="name-detail" href="">Service</a>
+                        <a class="name-detail" href="">Appliances</a>
+                        <div class="name-new">
+                            <a class="name-detail" href="">Storage</a>
+                            <button class="new">New</button>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Lifestyle</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-list">
+                    <p class="name">Shop Now</p>
+                    <div class="list">
+                        <a class="name-detail" href="">Offers</a>
+                        <a class="name-detail" href="">Promos</a>
+                        <a class="name-detail" href="">Online Shop FAQ</a>
+                        <div class="name-new">
+                            <a class="name-detail" href="">Business Offer</a>
+                            <button class="new">New</button>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Student Offer</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-list">
+                    <p class="name">Support</p>
+                    <div class="list">
+                        <a class="name-detail" href="">Contact</a>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Email Support</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Live Chat</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <a class="name-detail" href="">Phone Support</a>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Community</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-list">
+                    <p class="name">Account</p>
+                    <div class="list">
+                        <a class="name-detail" href="">My Products</a>
+                        <a class="name-detail" href="">Orders</a>
+                        <a class="name-detail" href="">Wishlist</a>
+                        <div class="name-new">
+                            <a class="name-detail" href="">Service</a>
+                            <button class="new">New</button>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">Rewards</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-list">
+                    <p class="name">About</p>
+                    <div class="list">
+                        <a class="name-detail" href="">Company Info</a>
+                        <a class="name-detail" href="">Brand Guidelines</a>
+                        <a class="name-detail" href="">Careers</a>
+                        <div class="name-new">
+                            <a class="name-detail" href="">Investors</a>
+                            <button class="new">New</button>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="name-arrow">
+                            <a class="name-detail" href="">About Us</a>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 13L13 3M13 3L5.5 3M13 3V10.5" stroke="#5C5F66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="solid margin-0"/>
+            <section id="end">
+                <p class="footer-link text-white" >© 2023 Cadet UI. All Rights Reserved.</p>
+                <div class="bottom-link">
+                    <a class="footer-link text-grey-1" href="#">English</a>
+                    <a class="footer-link text-grey-1" href="#">Privacy</a>
+                    <a class="footer-link text-grey-1" href="#">Legal</a>
+                </div>
+                <p class="footer-link text-grey-1" >© 2023 Cadet UI. All Rights Reserved.</p>     
+            </section>
+        </div> 
+        
+    </footer> 
+    <script src="./assets/javascript/javascript.js"></script>
+    <script src="./assets/javascript/validation.js"></script>
+    <script src="./assets/javascript/jv.js"></script>
+    <script>
+        // Sự kiện được kích hoạt khi trang web được load hoàn toàn
+        window.addEventListener('load', function() {
+        // Đọc số lượng từ Local Storage
+        var totalQuantity = parseInt(localStorage.getItem('totalCartQuantity')) || 0;
+
+        // Cập nhật số lượng vào biểu tượng giỏ hàng trong header
+        document.getElementById('cart-quantity').textContent = totalQuantity;
+        });
+    </script>
+</body>
+</html>
+
